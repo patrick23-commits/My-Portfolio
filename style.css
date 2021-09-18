@@ -1,0 +1,91 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+img {
+    position: relative;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 2rem;
+}
+h2 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: monospace;
+    color: white;
+    font-weight: lighter;
+    font-size: 75px;
+}
+hr {
+    margin-top: 20px;
+    border: 1px solid white;
+    width: 50%;
+}
+.main .description {
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    font-size: 20px;
+}
+.main .description img {
+    left: 25rem;
+}
+.main .description p {
+    line-height: 2rem;
+    text-indent: 2rem;
+    text-align: center;
+}
+.main .my-dream{
+    margin-top: 0;
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    width: 75%;
+    margin: 0 auto;
+}
+.main .links {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    word-spacing: 20px;
+    font-size: 25px;
+    
+}
+.main .links a {
+    text-decoration: none;
+    border: none;
+    color: white;
+    transition: all 1s ease-out .25s;
+}
+.main .links ul li a:hover {
+    padding-bottom: 10px;
+    border-bottom: 5px solid white;
+    cursor: pointer;
+    color: rgb(134, 127, 127);
+    border-radius: 5px;
+}
+.main .links ul {
+    list-style: none;
+}
+.main .links ul li{
+    display: inline;
+}
