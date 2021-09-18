@@ -11,8 +11,8 @@ img {
 .main {
     display: flex;
     flex-direction: column;
+    width: 100%;
     height: 100vh;
-    width: 100vw;
     background-image: url("bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -88,4 +88,16 @@ hr {
 }
 .main .links ul li{
     display: inline;
+}
+
+@media(max-width:550px) {
+    .main {
+        height: 1000%;
+    }
+    .main .links ul li{
+        display: block;
+    }
+    .main .description img {
+        left: 25%;
+    }
 }
